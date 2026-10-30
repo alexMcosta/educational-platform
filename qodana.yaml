@@ -3,8 +3,5 @@
 ####################################################################################################################
 
 version: 1.0
-
-imports:
-  - ../base/qodana.yaml
-include:
-  - name: CheckDependencyLicenses
+profile:
+  name: qodana.starter
